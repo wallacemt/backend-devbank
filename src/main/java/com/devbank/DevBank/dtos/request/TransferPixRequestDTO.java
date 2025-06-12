@@ -1,0 +1,16 @@
+package com.devbank.DevBank.dtos.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class TransferPixRequestDTO {
+    private Double amount;
+    private String reciveKey;
+    private String transactionPin;
+}
